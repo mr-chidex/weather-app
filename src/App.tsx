@@ -10,7 +10,7 @@ interface Weather {
   main: {
     temp: number;
   };
-  weather: [{ main: string }];
+  weather: { main: string }[];
 }
 
 const App: React.FC = () => {
